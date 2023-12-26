@@ -23,6 +23,7 @@ st.text("""
     You can upload a Image number in 28 * 28 pixel and got the number result
 """)
 
+
 image = st.file_uploader(label="Image uploader")
 if image:
     if image.name.split('.')[1] in ['png', 'jpeg', 'jpg']:
